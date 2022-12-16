@@ -40,3 +40,4 @@ npm run test
 * [Angular ESLint](https://github.com/angular-eslint/angular-eslint)
 * [Stylelint](https://stylelint.io)
 * [Angular Material Mobile App with Capacitor](https://devdactic.com/angular-material-app-capacitor)
+* [Capacitor](https://github.com/ionic-team/capacitor)

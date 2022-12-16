@@ -7,31 +7,32 @@ import { AboutComponent } from './about/about.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    children: [
-      {
+    {
         path: '',
-        component: DashboardComponent
-      },
-      {
-        path: 'about',
-        component: AboutComponent
-      },
-      {
-        path: '404',
-        component: NotFoundComponent
-      },
-      {
-        path: '**',
-        redirectTo: '404'
-      }
-    ]
-  }
+        children: [
+            {
+                path: '',
+                component: DashboardComponent
+            },
+            {
+                path: 'about',
+                component: AboutComponent
+            },
+            {
+                path: '404',
+                component: NotFoundComponent
+            },
+            {
+                path: '**',
+                redirectTo: '404'
+            }
+        ]
+    }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    imports: [ RouterModule.forRoot(routes) ],
+    exports: [ RouterModule ]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

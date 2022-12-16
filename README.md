@@ -35,7 +35,8 @@ npm run test
 
 ## References
 
-* [Angular](https://angular.io/)
+* [Angular](https://angular.io)
 * [Angular Material](https://material.angular.io)
 * [Angular ESLint](https://github.com/angular-eslint/angular-eslint)
+* [Stylelint](https://stylelint.io)
 * [Angular Material Mobile App with Capacitor](https://devdactic.com/angular-material-app-capacitor)
